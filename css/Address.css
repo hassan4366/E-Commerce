@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* start profile section  */
+.profile-section  a{
+    color: #A6A8A8;
+    font-size: 20px;
+}
+.profile-section  a:hover{
+    background-color: #57A99F;
+    color: white;
+}
+.profile-content a{
+    color: #B90404;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.Address-content{
+    background-color: #91B8B329;
+    padding: 38px 10px;
+    border-radius: 7px;
+    margin-bottom: 150px;
+}
+.profile-section .Address-content h3,span{
+    margin-left: 14px;
+}
+
+.Address-content img {
+    width: 86%;
+}
+.all-content {
+    display: flex;
+    gap: 20px;
+}
+
+/* End profile section  */

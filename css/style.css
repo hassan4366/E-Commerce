@@ -12,8 +12,9 @@
     background-color: #F3F4F4;
     padding: 30px 0;
 }
+
 .footer-section  span{
-    color: #42d8cbd2;
+    color: #57A99F;
 }
 @media (min-width: 768px) and (max-width: 992px) {
     .footer-section img{
