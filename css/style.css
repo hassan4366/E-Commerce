@@ -15,9 +15,14 @@
 .footer-section  span{
     color: #42d8cbd2;
 }
-@media (max-width: 768px) {
+@media (min-width: 768px) and (max-width: 992px) {
     .footer-section img{
         width: 78%;
+    }
+}
+@media (max-width: 576px) {
+    .footer-section img{
+        width: 60%;
     }
 }
 /* End footer section   */
