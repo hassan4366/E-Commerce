@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.icon{
+  color: black;
+}
+
+
+/* start footer section  */
+.footer-section{
+    background-color: #F3F4F4;
+    padding: 30px 0;
+}
+.footer-section  span{
+    color: #42d8cbd2;
+}
+@media (max-width: 768px) {
+    .footer-section img{
+        width: 78%;
+    }
+}
+/* End footer section   */
