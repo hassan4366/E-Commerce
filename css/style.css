@@ -1,23 +1,35 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-.icon{
-  color: black;
+
+/* start nav section */
+nav {
+    box-shadow: 0px 4px 6px -1px rgb(173, 171, 171);
 }
+
+.icon {
+    color: black;
+}
+
+/* end nav section */
+
 
 
 /* start footer section  */
-.footer-section{
+.footer-section {
     background-color: #F3F4F4;
     padding: 30px 0;
 }
-.footer-section  span{
+
+.footer-section span {
     color: #42d8cbd2;
 }
+
 @media (max-width: 768px) {
-    .footer-section img{
+    .footer-section img {
         width: 78%;
     }
 }
+
 /* End footer section   */
