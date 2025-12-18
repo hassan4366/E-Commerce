@@ -1,91 +1,155 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
 /* start header section */
 
-.header-section img{
-    height: 630px;
-    position: relative;
-    object-fit: cover;
+.header-section img {
+  height: 630px;
+  position: relative;
+  object-fit: cover;
 }
 .header-section .carousel-caption {
-    position: absolute;
-    top: 50%;
-    left: 10%;
-    transform: translateY(-50%);
-    text-align: left; 
-    
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  transform: translateY(-50%);
+  text-align: left;
 }
-.header-section ol{
-    display: flex;
-    justify-content: start;
+.header-section ol {
+  display: flex;
+  justify-content: start;
 }
-.header-section .overlay{
-    position: absolute;
-    inset: 0;
-    background: linear-gradient(to right,#91B8B3,#00000000);
+.header-section .overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to right, #91b8b3, #00000000);
 }
-.header-section li{
-    height: 12px;
-    width: 12px;
-    border-radius: 50%;
-    margin-left: 10px;
+.header-section li {
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  margin-left: 10px;
 }
 
-.header-section p{
-    font-size: 22px;
-    cursor: pointer;
+.header-section p {
+  font-size: 22px;
+  cursor: pointer;
 }
 @media (max-width: 767px) {
-    .header-section .carousel-caption{
-        position: absolute;
-        top: 50%;
-        left: 5%;
-    }
-    .header-section h1{
-        font-size: 28px;
-    }
-    .header-section p{
-        margin-bottom: 30px;
-    }
+  .header-section .carousel-caption {
+    position: absolute;
+    top: 50%;
+    left: 5%;
+  }
+  .header-section h1 {
+    font-size: 28px;
+  }
+  .header-section p {
+    margin-bottom: 30px;
+  }
 }
 
 /* end header section */
 
 /*start main section */
 
-    .main-section img{
-        height: 200px;
-        object-fit: cover;
-    }
-    .main-section .card{
-        background-color: #91B8B329
-    }
-    .card-body{
-        height: 200px;
-        display: flex;
-        flex-direction: column;
-        align-items: start;
-        justify-content: center;
-    }
-    .card-body p:nth-of-type(2){
-        cursor: pointer;
-    }
+.main-section img {
+  height: 200px;
+  object-fit: cover;
+}
+.main-section .card {
+  background-color: #91b8b329;
+}
+.card-body {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+}
+.card-body p:nth-of-type(2) {
+  cursor: pointer;
+}
 
 /*end main section */
 
 /* start product section */
-.showmore{
-    margin-bottom: 50px;
+.showmore {
+  margin-bottom: 60px;
 }
-.showmore button{
-    padding: 15px 40px;
-    border: 2px solid black;
-    background-color: transparent;
-    font-size: 20px;
-    font-weight: bold;
-    cursor: pointer;
+.showmore button {
+  padding: 15px 44px;
+  border: 2px solid black;
+  background-color: transparent;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
 }
+
+.product-section .card {
+  position: relative;
+  overflow: hidden;
+}
+
+.product-section .card::after {
+  content: "Select options";
+  position: absolute;
+  bottom: 90px;
+  left: 0;
+  width: 100%;
+  height: 45px;
+  background: #57a99f;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  cursor: pointer;
+}
+
+.product-section .card:hover::after {
+  opacity: 1;
+}
+
 /* end product section */
+
+/* start sale section  */
+
+.product-card {
+  position: relative;
+  overflow: hidden;
+}
+
+.product-card::after {
+  content: "Select  options";
+  position: absolute;
+  bottom: 170px;
+  left: 0;
+  width: 100%;
+  height: 45px;
+  background: #57a99f;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  cursor: pointer;
+}
+
+.product-card:hover::after {
+  opacity: 1;
+}
+
+/* End sale section  */
+/* photo section  */
+.photo-section {
+  margin-top: 55px;
+}
+
+/* End photo section  */
