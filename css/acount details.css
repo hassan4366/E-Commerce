@@ -3,11 +3,9 @@
     padding: 0;
 }
 
-/* start profile section  */
-.profile-section{
-    height: 550px;
-}
-.profile-section  a{
+/* start acount details section  */
+
+    .profile-section  a{
     color: #A6A8A8;
     font-size: 20px;
 }
@@ -24,4 +22,8 @@
     margin-bottom: 150px;
 }
 
-/* End profile section  */
+.summit{
+    background-color: #57A99F;
+}
+
+/* end acount details section  */

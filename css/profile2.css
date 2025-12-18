@@ -5,6 +5,9 @@
 
 
 /* start profile-2 section  */
+.profile-section{
+    height: 550px;
+}
 
 .profile-section  a{
     color: #A6A8A8;
