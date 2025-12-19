@@ -14,6 +14,10 @@
   border: 1px solid black;
   padding: 12px 15px;
 }
+.card-section button a {
+  text-decoration: none;
+  color: black;
+} 
 
 @media (max-width: 576px) {
   .card-section img {

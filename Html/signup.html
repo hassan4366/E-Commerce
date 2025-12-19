@@ -45,7 +45,7 @@
                 <a href="#"><i class="fa-regular fa-heart ml-5 icon"></i></a>
                 <a href="Empty-card.html"><i class="fa-solid fa-cart-shopping ml-4 icon"></i></a>
                 <a href="#"><i class="fa-solid fa-magnifying-glass ml-4 icon"></i></a>
-                <a href="#"><i class="fa-regular fa-user ml-4 icon"></i></a>
+                <a href="profile1.html"><i class="fa-regular fa-user ml-4 icon"></i></a>
             </div>
         </div>
     </nav>
@@ -66,54 +66,49 @@
                 </div>
 
                 <div class="col-md-6 my-5">
-                    <form novalidate>
+                    <form  action="Home-Page.html">
 
                         <!-- Full Name -->
                         <label class="font-weight-bold">Full name</label>
-                        <input type="text" id="fullname"
+                        <input type="text" name="fullname"
                             class="w-75 p-4 rounded-lg mb-3 form-control"
-                            placeholder="Enter your name">
+                            placeholder="Enter your name" required autofocus>
 
                         <!-- Email -->
                         <label class="font-weight-bold">Email</label>
                         <input type="email" id="email"
                             class="w-75 p-4 rounded-lg mb-1 form-control"
-                            placeholder="Enter your email">
+                            placeholder="Enter your email" required>
                         <small id="emailError" class="text-danger d-block mb-3"></small>
 
                         <!-- Password -->
                         <label class="font-weight-bold">Password</label>
                         <input type="password" id="password"
                             class="w-75 p-4 rounded-lg mb-1 form-control"
-                            placeholder="Enter your password">
+                            placeholder="Enter your password" required>
                         <small id="passwordError" class="text-danger d-block mb-3"></small>
 
                         <!-- Confirm Password -->
                         <label class="font-weight-bold">Confirm Password</label>
                         <input type="password" id="confirm_password"
                             class="w-75 p-4 rounded-lg mb-1 form-control"
-                            placeholder="Confirm your password">
+                            placeholder="Confirm your password" required>
                         <small id="confirmError" class="text-danger d-block mb-3"></small>
 
-                    </form>
+                        <p class="text-secondary">
+                            Sign up for early Sale access plus tailored new <br>
+                            arrivals, trends and promotions. To opt out, click <br>
+                            unsubscribe in our emails.
+                        </p>
+    
+                        <input type="submit" value="Register"
+                            class="w-75 p-3 rounded-lg font-weight-bold mb-3" >
+                        </form>
+                        <form action="sign-in.html">
+                            <input type="submit" value="Login"
+                                class=" w-75 p-3 rounded-lg border font-weight-bold mb-3 lonin">
+                        </form>
 
-                    <p class="text-secondary">
-                        Sign up for early Sale access plus tailored new <br>
-                        arrivals, trends and promotions. To opt out, click <br>
-                        unsubscribe in our emails.
-                    </p>
-
-                    <button type="button"
-                        class="btn btn-info w-75 p-3 mb-3 rounded-lg font-weight-bold mt-3">
-                        Register
-                    </button>
-
-                    <button type="button"
-                        class="btn btn-light w-75 p-3 rounded-lg border font-weight-bold">
-                        <a href="sign-in.html" class="text-decoration-none text-dark">
-                            Login
-                        </a>
-                    </button>
                 </div>
             </div>
         </div>
