@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* start fav section  */
+
+.Fav-item {
+  font-size: 22px;
+  background-color: #f3f4f4;
+}
+
+.Fav-item a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.Fav-card span {
+  color: #08a372;
+}
+
+.Fav-card button {
+  background-color: #57a99f;
+  border: none;
+  border-radius: 3px;
+  color: #ffffff;
+  padding: 13px 28px;
+}
+
+/* Mobile Responsive */
+@media (max-width: 576px) {
+  .Fav-card {
+    flex-direction: column !important;
+    text-align: center;
+  }
+
+  .Fav-card > div {
+    width: 100% !important;
+    margin: 8px 0;
+  }
+
+  .Fav-card img {
+    width: 60% !important;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .Fav-card button {
+    width: 70% !important;
+    display: block;
+    margin: auto;
+  }
+}
+
+/* End fav section  */
