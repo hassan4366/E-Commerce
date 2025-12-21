@@ -70,7 +70,7 @@
 
 /* start select option  */
 
-.product-section .card {
+.product-section,.sale-2, .card {
   position: relative;
   overflow: hidden;
 }
@@ -89,9 +89,17 @@
   transition: 0.3s;
   cursor: pointer;
 }
-.product-section .card:hover .add-to-cart-btn {
+.product-section,.sale-2, .card:hover .add-to-cart-btn {
   opacity: 1;
 }
+.sale-2 .add-to-cart-btn {
+  bottom: 198px;
+}
+
+.sale-1 .add-to-cart-btn {
+  bottom: 198px;
+}
+
 /* End select option  */
 
 /* Show More button */
