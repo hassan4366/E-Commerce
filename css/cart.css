@@ -64,6 +64,8 @@
         padding: 10px 50px;
     }
 }
+
+
 @media (width: 768px){
     .smallimg{
         width: 100%;
