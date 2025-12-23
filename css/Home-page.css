@@ -112,6 +112,11 @@
   font-weight: bold;
   cursor: pointer;
 }
+@media (max-width:576px){
+  .showmore{
+    margin-top: 30px;
+  }
+}
 
 /* Photo Section */
 .photo-section {
