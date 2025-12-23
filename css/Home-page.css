@@ -74,7 +74,8 @@
 
 .add-to-cart-btn {
   position: absolute;
-  bottom: 100px;
+  border: 0;
+  bottom: 115px;
   left: 0;
   width: 100%;
   height: 45px;
@@ -90,11 +91,11 @@
   opacity: 1;
 }
 .sale-2 .add-to-cart-btn {
-  bottom: 198px;
+  bottom: 100px;
 }
 
 .sale-1 .add-to-cart-btn {
-  bottom: 198px;
+  bottom: 100px;
 }
 
 /* End select option  */
