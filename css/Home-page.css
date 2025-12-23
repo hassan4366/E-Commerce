@@ -55,7 +55,7 @@
   background-color: #91b8b329;
 }
 .card-body {
-  height: 200px;
+  height: 100px;
   display: flex;
   flex-direction: column;
   align-items: start;

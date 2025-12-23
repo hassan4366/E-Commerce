@@ -31,6 +31,7 @@
 }
 .profile-section .Address-content h3,span{
     margin-left: 14px;
+    margin-bottom: 64px;
 }
 
 .Address-content img {
@@ -48,7 +49,7 @@
         align-items: center;
     }
     .all-content{
-        height: 300px;
+        height: fit-content;
     }
 }
 
