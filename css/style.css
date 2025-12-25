@@ -12,6 +12,7 @@
     background-color: #F3F4F4;
     padding: 30px 0;
     margin-top: 100px;
+    text-align: center;
 }
 
 .footer-section  span{
@@ -24,7 +25,7 @@
 }
 @media (max-width: 576px) {
     .footer-section img{
-        width: 60%;
+        width: 55%;
     }
 }
 /* End footer section   */
