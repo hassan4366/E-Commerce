@@ -6,7 +6,18 @@
   color: black;
 }
 
+/* start nav section  */
 
+@media (max-width: 576px) {
+
+
+    nav img{
+        width: 63%;
+    }
+}
+
+
+/* End nav section  */
 /* start footer section  */
 .footer-section{
     background-color: #F3F4F4;
