@@ -2,8 +2,12 @@
 
 Transforming Shopping into Seamless Experiences.
 
-[![Generic badge](https://img.shields.io/badge/Documentation-README-blue.svg)]()
 [![Generic badge](https://img.shields.io/badge/Technologies-HTML-yellow.svg)]()
+[![Generic badge](https://img.shields.io/badge/Technologies-CSS-yellow.svg)]()
+[![Generic badge](https://img.shields.io/badge/Technologies-Javascript-Green.svg)]()
+[![Generic badge](https://img.shields.io/badge/Technologies-Wow.js-purple.svg)]()
+[![Generic badge](https://img.shields.io/badge/Technologies-Bootstrap-blue.svg)]()
+[![Generic badge](https://img.shields.io/badge/Documentation-README-blue.svg)]()
 
 Built with the best tools and technologies.
 
