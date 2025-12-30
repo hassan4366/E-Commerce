@@ -18,9 +18,6 @@ Built with the best tools and technologies.
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
-  - [Usage](#usage)
-  - [Testing](#testing)
-
 ---
 
 ## Overview
@@ -61,15 +58,9 @@ Build E-Commerce from the source and install dependencies:
 1. **Clone the repository:**
    ```bash
    https://github.com/hassan4366/E-Commerce.git
-2.Navigate to the project directory:
-  cd E-Commerce
-3.Install the dependencies
-  echo "INSERT INSTALL COMMAND HERE"
-
-4.live demo:
+   
+3.**live demo:**
   <a href = "https://e-commerce-silk-two-64.vercel.app/">Click Here</a>
-
-
-Created By <br/>
+  <h1>Created By </h1>
   Hassan Hammam <a href="https://github.com/hassan4366">GIt-Hub</a> <br/>
   Hassan Tantawy <a href="https://github.com/HassanTantawy-dev">GIt-Hub</a>
