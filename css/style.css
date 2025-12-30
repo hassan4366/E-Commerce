@@ -34,6 +34,14 @@
     }
 }
 @media (max-width: 576px) {
+
+    .navbar{
+        position: sticky;
+        z-index: 1000;
+        top: 0;
+        
+    }
+
     .footer-section{
         text-align: center;
 
