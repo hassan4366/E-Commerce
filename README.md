@@ -56,14 +56,16 @@ Build E-Commerce from the source and install dependencies:
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/Moamen0016/E-Commerce
+   https://github.com/hassan4366/E-Commerce.git
 2.Navigate to the project directory:
   cd E-Commerce
 3.Install the dependencies
   echo "INSERT INSTALL COMMAND HERE"
 
+4.live demo:
+  <a href = "https://e-commerce-silk-two-64.vercel.app/">Click Here</a>
+
 
 Created By <br/>
   Hassan Hammam <a href="https://github.com/hassan4366">GIt-Hub</a> <br/>
-  
   Hassan Tantawy <a href="https://github.com/HassanTantawy-dev">GIt-Hub</a>
