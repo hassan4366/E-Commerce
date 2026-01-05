@@ -37,9 +37,6 @@
 }
 
 @media (max-width: 576px) {
-    .navbar {
-
-
         .navbar {
             position: sticky;
             z-index: 1000;
@@ -56,6 +53,5 @@
             width: 55%;
         }
     }
-}
 
 /* End footer section   */
