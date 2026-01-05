@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header-section{
+    height: 330px;
+    background-image: url(../Img/Rectangle\ 2.png);
+    background-size: cover;
+    padding-top: 30px;
+}
+
+.header-section .content{
+    margin-top: 100px;
+}
+
+.button-section button{
+    padding: 13px 37px;
+}
+
+.showmore button{
+    padding: 12px 48px;
+}
