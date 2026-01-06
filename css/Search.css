@@ -21,3 +21,15 @@
 .showmore button{
     padding: 12px 48px;
 }
+
+@media (max-width: 567px){
+    .header-section{
+        background-position: center;
+    }
+    .header-section .content h2{
+        font-size: 29px;
+    }
+    .header-section .content h5{
+        font-size: 17px;
+    }
+}

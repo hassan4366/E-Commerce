@@ -33,7 +33,14 @@ document.querySelectorAll(".add-to-cart-btn").forEach((btn) => {
 
     addToCart(product);
 
-    // Show alert When select the card
-    alert("Product added successfully! You can continue shopping.");
+  
+    // Show success alert
+    
+    Swal.fire({
+      title: "Product added successfully!",
+      text: "Go to shopping cart.",
+      icon: "success",
+      confirmButtonColor: "#3f3d56",
+    });
   });
 });
