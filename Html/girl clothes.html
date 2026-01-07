@@ -12,6 +12,7 @@
     <!-- style css  -->
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/girl clothes.css">
+    <link rel="stylesheet" href="../css/Home-page.css">
     <title>E-Commerce</title>
 </head>
 
@@ -69,13 +70,13 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-12 d-flex flex-column text-light text center align-items-center">
-                    <h2>Girls's clothes</h2>
+                    <h1>Girls's clothes</h1>
                     <h5>Home >> Girls</h5>
                 </div>
             </div>
         </div>
     </header>
-    
+
 
     <!-- end girl clothes section -->
 
@@ -85,8 +86,246 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-3">
-                    <h2>Filter</h2>
-                    
+                    <div class="filter mt-4">
+                        <h2>Filter</h2>
+                        <div class="filter-box mt-4">
+                            <h5>Price</h5>
+                            <div class="price-slider"></div>
+                            <div class="d-flex">
+                                <div class="input-group">
+                                    <input type="text" class="form-control" placeholder="0">
+                                    <span class="input-group-text">EGP</span>
+                                </div>
+                                <span class="align-self-center mx-2 font-weight-bold">To</span>
+                                <div class="input-group">
+                                    <input type="text" class="form-control w-50" placeholder="1500">
+                                    <span class="input-group-text">EGP</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="filter-box mt-4">
+                            <h5>Size</h5>
+                            <div class="d-flex flex-wrap">
+                                <label class="mr-3"><input type="checkbox"> 3M</label>
+                                <label class="mr-3"><input type="checkbox"> 6M</label>
+                                <label class="mr-3"><input type="checkbox"> 9M</label>
+                                <label><input type="checkbox"> 12M</label>
+                            </div>
+                            <div class="d-flex flex-wrap">
+                                <label class="mr-4"><input type="checkbox"> 1Y</label>
+                                <label class="mr-4"><input type="checkbox"> 2Y</label>
+                                <label class="mr-3"><input type="checkbox"> 3Y</label>
+                                <label><input type="checkbox"> 4Y</label>
+                            </div>
+                        </div>
+                        <div class="filter-box mt-4">
+                            <h5>Color</h5>
+                            <div class="d-flex flex-wrap">
+                                <span class="color c1"></span>
+                                <span class="color c2"></span>
+                                <span class="color c3"></span>
+                                <span class="color c4"></span>
+                                <span class="color c5"></span>
+                                <span class="color c6"></span>
+                                <span class="color c7"></span>
+                            </div>
+                            <div class="d-flex flex-wrap">
+                                <span class="color c8"></span>
+                                <span class="color c9"></span>
+                                <span class="color c10"></span>
+                                <span class="color c11"></span>
+                                <span class="color c12"></span>
+                                <span class="color c13"></span>
+                                <span class="color c14"></span>
+                            </div>
+                            <div class="d-flex flex-wrap">
+                                <span class="color c15"></span>
+                                <span class="color c16"></span>
+                                <span class="color c17"></span>
+                                <span class="color c18"></span>
+                                <span class="color c19"></span>
+                                <span class="color c20"></span>
+                                <span class="color c21"></span>
+                            </div>
+                        </div>
+                        <div class="filter-box mt-4">
+                            <h5>Availability</h5>
+                            <label><input type="checkbox"> In stock (234)</label><br>
+                            <label><input type="checkbox"> Out of stock (934)</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-9">
+                    <div class="row mt-4">
+                        <div class="col-6 col-md-4 ">
+                            <div class="card  border-0 d-flex flex-column align-items-center position-relative">
+                                <img src="../Img/Frame 23 (1).png" class="card-img-top" alt="..." />
+                                <div class="card-body mt-3">
+                                    <p class="card-text font-weight-bold">Snow Three Pieces Set</p>
+                                    <p class="font-weight-bold text-center w-100">EGP 670</p>
+                                </div>
+                                <!-- زر إضافة للكارت -->
+                                <button class="add-to-cart-btn" data-name="Snow Three Pieces Set" data-price="670"
+                                    data-img="../Img/Frame 23 (1).png">
+                                    Select options
+                                </button>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-4 ">
+                            <div class="card  border-0 d-flex flex-column align-items-center position-relative">
+                                <img src="../Img/Frame 22 (5).png" class="card-img-top" alt="..." />
+                                <div class="card-body mt-3">
+                                    <p class="card-text font-weight-bold">Slopet Two Pieces Set</p>
+                                    <p class="font-weight-bold text-center w-100">EGP 670</p>
+                                </div>
+                                <!-- زر إضافة للكارت -->
+                                <button class="add-to-cart-btn" data-name="Slopet Two Pieces Set" data-price="670"
+                                    data-img="../Img/Frame 22 (5).png">
+                                    Select options
+                                </button>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-4 ">
+                            <div class="card  border-0 d-flex flex-column align-items-center position-relative">
+                                <img src="../Img/Frame 22 (2).png" class="card-img-top" alt="..." />
+                                <div class="card-body mt-3">
+                                    <p class="card-text font-weight-bold">Slopet Two Pieces Set</p>
+                                    <p class="font-weight-bold text-center w-100">EGP 670</p>
+                                </div>
+                                <!-- زر إضافة للكارت -->
+                                <button class="add-to-cart-btn" data-name="Slopet Two Pieces Set" data-price="670"
+                                    data-img="../Img/Frame 22 (2).png">
+                                    Select options
+                                </button>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-4 ">
+                            <div class="card  border-0 d-flex flex-column align-items-center position-relative">
+                                <img src="../Img/Frame 22 (12).png" class="card-img-top" alt="..." />
+                                <div class="card-body mt-3">
+                                    <p class="card-text font-weight-bold">Snow Three Pieces Set</p>
+                                    <p class="font-weight-bold text-center w-100">EGP 670</p>
+                                </div>
+                                <!-- زر إضافة للكارت -->
+                                <button class="add-to-cart-btn" data-name="Snow Three Pieces Set" data-price="670"
+                                    data-img="../Img/Frame 22 (12).png">
+                                    Select options
+                                </button>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-4 ">
+                            <div class="card  border-0 d-flex flex-column align-items-center position-relative">
+                                <img src="../Img/Frame 22 (14).png" class="card-img-top" alt="..." />
+                                <div class="card-body mt-3">
+                                    <p class="card-text font-weight-bold">Snow Three Pieces Set</p>
+                                    <p class="font-weight-bold text-center w-100">EGP 670</p>
+                                </div>
+                                <!-- زر إضافة للكارت -->
+                                <button class="add-to-cart-btn" data-name="Snow Three Pieces Set" data-price="670"
+                                    data-img="../Img/Frame 22 (14).png">
+                                    Select options
+                                </button>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-4 ">
+                            <div class="card  border-0 d-flex flex-column align-items-center position-relative">
+                                <img src="../Img/Frame 22 (15).png" class="card-img-top" alt="..." />
+                                <div class="card-body mt-3">
+                                    <p class="card-text font-weight-bold">Snow Three Pieces Set</p>
+                                    <p class="font-weight-bold text-center w-100">EGP 670</p>
+                                </div>
+                                <!-- زر إضافة للكارت -->
+                                <button class="add-to-cart-btn" data-name="Snow Three Pieces Set" data-price="670"
+                                    data-img="../Img/Frame 22 (15).png">
+                                    Select options
+                                </button>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-4 ">
+                            <div class="card  border-0 d-flex flex-column align-items-center position-relative">
+                                <img src="../Img/Frame 22 (16).png" class="card-img-top" alt="..." />
+                                <div class="card-body mt-3">
+                                    <p class="card-text font-weight-bold">Snow Three Pieces Set</p>
+                                    <p class="font-weight-bold text-center w-100">EGP 670</p>
+                                </div>
+                                <!-- زر إضافة للكارت -->
+                                <button class="add-to-cart-btn" data-name="Snow Three Pieces Set" data-price="670"
+                                    data-img="../Img/Frame 22 (16).png">
+                                    Select options
+                                </button>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-4 ">
+                            <div class="card  border-0 d-flex flex-column align-items-center position-relative">
+                                <img src="../Img/Frame 23 (1).png" class="card-img-top" alt="..." />
+                                <div class="card-body mt-3">
+                                    <p class="card-text font-weight-bold">Snow Six Pieces Set</p>
+                                    <p class="font-weight-bold text-center w-100">EGP 670</p>
+                                </div>
+                                <!-- زر إضافة للكارت -->
+                                <button class="add-to-cart-btn" data-name="Snow Six Pieces Set" data-price="670"
+                                    data-img="../Img/Frame 23 (1).png">
+                                    Select options
+                                </button>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-4 ">
+                            <div class="card  border-0 d-flex flex-column align-items-center position-relative">
+                                <img src="../Img/Frame 22 (17).png" class="card-img-top" alt="..." />
+                                <div class="card-body mt-3">
+                                    <p class="card-text font-weight-bold">Snow Three Pieces Set</p>
+                                    <p class="font-weight-bold text-center w-100">EGP 670</p>
+                                </div>
+                                <!-- زر إضافة للكارت -->
+                                <button class="add-to-cart-btn" data-name="Snow Three Pieces Set" data-price="670"
+                                    data-img="../Img/Frame 22 (17).png">
+                                    Select options
+                                </button>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-4 ">
+                            <div class="card  border-0 d-flex flex-column align-items-center position-relative">
+                                <img src="../Img/Frame 22 (10).png" class="card-img-top" alt="..." />
+                                <div class="card-body mt-3">
+                                    <p class="card-text font-weight-bold">Snow Three Pieces Set</p>
+                                    <p class="font-weight-bold text-center w-100">EGP 670</p>
+                                </div>
+                                <!-- زر إضافة للكارت -->
+                                <button class="add-to-cart-btn" data-name="Snow Three Pieces Set" data-price="670"
+                                    data-img="../Img/Frame 22 (10).png">
+                                    Select options
+                                </button>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-4 ">
+                            <div class="card  border-0 d-flex flex-column align-items-center position-relative">
+                                <img src="../Img/Frame 22 (11).png" class="card-img-top" alt="..." />
+                                <div class="card-body mt-3">
+                                    <p class="card-text font-weight-bold">Snow Three Pieces Set</p>
+                                    <p class="font-weight-bold text-center w-100">EGP 670</p>
+                                </div>
+                                <!-- زر إضافة للكارت -->
+                                <button class="add-to-cart-btn" data-name="Snow Three Pieces Set" data-price="670"
+                                    data-img="../Img/Frame 22 (11).png">
+                                    Select options
+                                </button>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-4 ">
+                            <div class="card  border-0 d-flex flex-column align-items-center position-relative">
+                                <img src="../Img/Frame 94 (2).png" class="card-img-top" alt="..." />
+                                <div class="card-body mt-3">
+                                    <p class="card-text font-weight-bold">Snow Two Pieces Set</p>
+                                    <p class="font-weight-bold text-center w-100">EGP 670</p>
+                                </div>
+                                <!-- زر إضافة للكارت -->
+                                <button class="add-to-cart-btn" data-name="Snow Two Pieces Set" data-price="670"
+                                    data-img="../Img/Frame 94 (2).png">
+                                    Select options
+                                </button>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -136,12 +375,17 @@
     <!-- End footer  section -->
 
 
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="../Js/home-page.js"></script>
     <!-- jquery js -->
     <script src="../Js/jquery.slim.min.js"></script>
     <!-- popper ja -->
     <script src="../Js/popper.min.js"></script>
     <!-- bootstrap js -->
     <script src="../Js/bootstrap.min.js"></script>
+    <!-- js -->
+
+    
 </body>
 
 </html>
