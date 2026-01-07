@@ -60,7 +60,7 @@ Build E-Commerce from the source and install dependencies:
    https://github.com/hassan4366/E-Commerce.git
    
 3.**live demo:**
-  <a href = "https://e-commerce-silk-two-64.vercel.app/">Click Here</a>
+  <a href = "https://luli-kids-clothes.netlify.app/">Click Here</a>
   <h1>Created By </h1>
   Hassan Hammam <a href="https://github.com/hassan4366">GIt-Hub</a> <br/>
   Hassan Tantawy <a href="https://github.com/HassanTantawy-dev">GIt-Hub</a>
