@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.girls{
+    background-image: url(../Img/Rectangle\ 2.png);
+    height: 330px;
+    background-size: cover;
+}
+.text{
+    margin-top: 100px;
+}

@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* start check out section */
+
+.quantity {
+    display: inline-flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.quantity button {
+    background: #f5f5f5;
+    border: none;
+    padding: 10px 12px;
+}
+
+.quantity span {
+    padding: 10px 20px;
+}
+
+.summary {
+    height: 450px;
+    line-height: 130px;
+    background-color: #F9F9F9;
+    padding: 0 15px;
+    font-size: 20px;
+}
+
+.btn {
+    background-color: #57A99F;
+    color: white;
+    padding: 5px 20px;
+}
+
+.btn-1 {
+    background-color: #57A99F;
+    color: white;
+    width: 350px;
+    height: 50px;
+    border: 0;
+    margin-top: 70px;
+}
+
+/* end check out section */
