@@ -65,7 +65,9 @@
           <a href="Empty-card.html"
             ><i class="fa-solid fa-cart-shopping ml-4 icon"></i
           ></a>
-          <a href="Search.html"><i class="fa-solid fa-magnifying-glass ml-4 icon"></i></a>
+          <a href="Search.html"
+            ><i class="fa-solid fa-magnifying-glass ml-4 icon"></i
+          ></a>
           <a href="profile1.html"
             ><i class="fa-regular fa-user ml-4 icon"></i
           ></a>
@@ -83,11 +85,6 @@
           <div class="col-md-12">
             <p class="text-secondary mt-5">Home >> Favourite list</p>
           </div>
-
-          <div class="col-md-12">
-            <h2 class="font-weight-bold">Favourite List</h2>
-          </div>
-
           <ul class="nav justify-content-center w-100 my-3 Fav-item">
             <li class="nav-item">
               <a class="nav-link" href="#">Product name</a>
@@ -99,69 +96,11 @@
               <a class="nav-link" href="#">Stock status</a>
             </li>
           </ul>
-
-          <div class="Fav-card col-md-12 d-flex flex-row justify-content-between align-items-center my-3">
-            <div class="col-md-3">
-              <img src="../Img/Frame 94.png" alt="#" class="img-fluid" />
-            </div>
-
-            <div class="col-md-3">
-              <h5 class="">Slopet Two Pieces Set</h5>
-            </div>
-            <div class="col-md-2">
-              <h6 class="font-weight-bold m-lg-2">EGP 880</h6>
-            </div>
-            <div class="col-md-1">
-              <h6 class="font-weight-bold"><span>In stock</span></h6>
-            </div>
-            <div class="col-md-3">
-              <button type="button" class="font-weight-bold ml-5">
-                Select options
-              </button>
-            </div>
-          </div>
-
-          <div class="Fav-card col-md-12 d-flex flex-row justify-content-between align-items-center my-3">
-            <div class="col-md-3">
-              <img src="../Img/Frame 94 (1).png" alt="#" class="img-fluid" />
-            </div>
-            <div class="col-md-3">
-              <h5 class="">Snow Six Pieces Set</h5>
-            </div>
-            <div class="col-md-2">
-              <h6 class="font-weight-bold m-lg-2">EGP 670</h6>
-            </div>
-            <div class="col-md-1">
-              <h6 class="font-weight-bold"><span>In stock</span></h6>
-            </div>
-            <div class="col-md-3">
-              <button type="button" class="font-weight-bold ml-5">
-                Select options
-              </button>
-            </div>
-          </div>
-
-          <div class="Fav-card col-md-12 d-flex flex-row justify-content-between align-items-center mt-3 mb-5">
-            <div class="col-md-3">
-              <img src="../Img/Frame 94 (2).png" alt="#" class="img-fluid" />
-            </div>
-            <div class="col-md-3">
-              <h5 class="">T-shiert Two Pieces Set</h5>
-            </div>
-            <div class="col-md-2">
-              <h6 class="font-weight-bold m-lg-2">EGP 670</h6>
-            </div>
-            <div class="col-md-1">
-              <h6 class="font-weight-bold"><span>In stock</span></h6>
-            </div>
-            <div class="col-md-3">
-              <button type="button" class="font-weight-bold ml-5">
-                Select options
-              </button>
-            </div>
-          </div>
-    
+          
         </div>
+
+        <!-- show fav items here  -->
+        <div class="row" id="favContainer"></div>
       </div>
     </div>
 
@@ -211,6 +150,10 @@
 
     <!-- End footer  section -->
 
+    <!-- main js -->
+    <script src="../Js/cart.js"></script>
+    <!-- fav js  -->
+    <script src="../Js/fav.js"></script>
     <!-- jquery js -->
     <script src="../Js/jquery.slim.min.js"></script>
     <!-- popper ja -->

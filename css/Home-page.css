@@ -36,6 +36,23 @@
   cursor: pointer;
 }
 
+.fav-icon {
+    position: absolute;
+    top: 13px;
+    right: 15px;
+    font-size: 20px;
+    color: #555;
+    cursor: pointer;
+    z-index: 10;
+    transition: all 0.3s ease;
+}
+
+.fav-icon:hover {
+    color: #e63946;
+    transform: scale(1.1);
+}
+
+
 /* Mobile header */
 @media (max-width: 576px) {
   .header-section h1 {
