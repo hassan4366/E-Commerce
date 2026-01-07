@@ -118,3 +118,10 @@
 .c21{
     background-color: #828207;
 }
+
+@media (max-width: 576px) {
+    .girls {
+        background-position: center;
+    }
+    
+}
