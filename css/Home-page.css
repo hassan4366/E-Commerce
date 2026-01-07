@@ -48,7 +48,7 @@
 }
 
 .fav-icon:hover {
-    color: #e63946;
+    color: red;
     transform: scale(1.1);
 }
 
